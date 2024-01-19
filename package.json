@@ -1,0 +1,35 @@
+{
+  "name": "minify-modules",
+  "version": "1.0.0",
+  "description": "Minify node modules",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "minify-node": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek24/minify-modules.git"
+  },
+  "keywords": [
+    "minify",
+    "npm",
+    "node",
+    "modules",
+    "minify",
+    "modules"
+  ],
+  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sefinek24/minify-modules/issues"
+  },
+  "homepage": "https://github.com/sefinek24/minify-modules#readme",
+  "preferGlobal": true,
+  "dependencies": {
+    "glob": "^10.3.10",
+    "terser": "^5.27.0"
+  }
+}
