@@ -30,6 +30,6 @@
   "preferGlobal": true,
   "dependencies": {
     "glob": "^10.3.10",
-    "terser": "^5.27.0"
+    "terser": "^5.29.1"
   }
 }
